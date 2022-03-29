@@ -5,6 +5,6 @@
 首先需要下载MNIST数据集mnist_train.csv和mnist_test.csv放到项目文件夹下，不论训练还是测试都需要做这一步
 ## 训练模型
 在命令行中输入以下命令即可训练模型
-'''python
+```python
 python two_layer.py 
-'''
+```
