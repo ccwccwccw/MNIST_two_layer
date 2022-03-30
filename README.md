@@ -25,21 +25,22 @@ checkpoint为模型参数的路径。当is_test为True时表示读取模型参�
 visualize为是否可视化网络参数。当is_test为True时，若visualize也为True则会可视化网络参数；如果is_test为False或visualize为False时，均不会可视化网络参数。<br/>
 
 测试模型的代码如下
+```python
 python two_layer.py --is_test True
                     --checkpoint 'params.json'
                     --visualize True
-                    
+```                    
 ## 特别说明
 由于模型参数较少，因此可以直接从本项目的github中下载下来，就不放在网盘里了，模型参数文件名为"params.json"
 
 ## 实验结果
-使用默认值的所有参数值，我们可以得到最终的实验结果，
-模型在训练集和测试集上的loss曲线如下图：
+使用默认值的所有参数值，我们可以得到最终的实验结果<br/>
+模型在训练集和测试集上的loss曲线如下图：<br/>
 ![loss曲线](https://github.com/ccwccwccw/MNIST_two_layer/blob/main/loss.png)<br/>
-模型在测试集上的accuracy如下图：
+模型在测试集上的accuracy如下图：<br/>
 ![acc曲线](https://github.com/ccwccwccw/MNIST_two_layer/blob/main/acc.png)<br/>
-最终模型在测试集上的accuracy值为0.978。
-第一层网络参数的可视化结果如下：
+最终模型在测试集上的accuracy值为0.978。<br/>
+第一层网络参数的可视化结果如下：<br/>
 ![第一层参数](https://github.com/ccwccwccw/MNIST_two_layer/blob/main/first_layer.png)<br/>
-第二层网络参数的可视化结果如下：
+第二层网络参数的可视化结果如下：<br/>
 ![第二层参数](https://github.com/ccwccwccw/MNIST_two_layer/blob/main/second_layer.png)<br/>
