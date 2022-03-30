@@ -34,7 +34,7 @@ python two_layer.py --is_test True
 由于模型参数较少，因此可以直接从本项目的github中下载下来，就不放在网盘里了，模型参数文件名为"params.json"
 
 ## 实验结果
-使用默认值的所有参数值，我们可以得到最终的实验结果<br/>
+使用默认值的所有参数对模型进行训练，我们可以得到最终的实验结果<br/>
 模型在训练集和测试集上的loss曲线如下图：<br/>
 ![loss曲线](https://github.com/ccwccwccw/MNIST_two_layer/blob/main/loss.png)<br/>
 模型在测试集上的accuracy如下图：<br/>
