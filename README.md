@@ -2,7 +2,8 @@
 构建两层神经网络分类器，数据集：MINIST；
 不使用pytorch，tensorflow等python package，仅使用numpy。
 # 项目运行步骤
-首先需要下载MNIST数据集mnist_train.csv和mnist_test.csv放到项目文件夹下，不论训练还是测试都需要做这一步
+首先需要下载MNIST数据集mnist_train.csv和mnist_test.csv放到项目文件夹下，不论训练还是测试都需要做这一步<br/>
+该项目使用的python环境为python3.9 numpy1.22.3 matlplotlib3.5.1
 ## 训练模型
 在命令行中输入以下命令即可训练模型
 ```python
